@@ -1,0 +1,58 @@
+body{
+
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+
+.weather{
+
+    height: 100vh;
+    width: 100%;
+    border: solid 1px rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+.weather button{
+    height: 10vh;
+    width: 15%;
+    color: white;
+    border: none;
+    background: rgb(29, 43, 163);
+}
+
+.weather .temp
+{
+    height: 30vh;
+    width: 20%;
+    border: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather .cityName{
+    height: 30vh;
+    width: 20%;
+    border: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather input {
+    width: 20%;
+    height:5vh;
+}
